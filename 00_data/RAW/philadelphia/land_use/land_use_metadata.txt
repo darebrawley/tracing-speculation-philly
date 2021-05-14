@@ -1,0 +1,78 @@
+Land Use
+
+Philadelphia Department of Planning and Development
+
+https://www.opendataphilly.org/dataset/land-use
+CONTACT: darshna.patel@phila.gov
+
+
+City of Philadelphia land use as ascribed to individual parcel boundaries or units of land. Land use is the type of activity occurring on the land such as residential, commercial or industrial. Each unit of land is assigned one of nine major classifications of land use (2-digit code), and where possible a more narrowly defined sub-classification (3-digit code). The land use feature class has been field checked and corrected for the following Planning Districts. The year of the update is in parentheses:
+
+Central (2012)
+Central Northeast (2013)
+Lower North (2013)
+Lower Northeast (2012)
+Lower Northwest (2013)
+Lower South (2011)
+River Wards (2014)
+South (2014)
+West Park (2011)
+University Southwest (2012)
+Hunting Park West (2015)
+North Delaware (2015)
+Lower Southwest (2015)
+Germantown (2015/2016)
+Portions along Roosevelt Boulevard (2015)
+Upper North (2015-2016)
+Far Northeast (2015-2016)
+Callowhill (2016)
+North (2016)
+West (2017)
+
+
+Field checks and updates are planned for the remaining Planning Districts as part of the Philadelpia2035 comprehensive planning process.
+
+Landuse Codes and Descriptions
+Landuse codes are organized from the 1-digit to 3-digit level. Specificity of land use increases with each increasing digit. Coded numeric values are stored as integers. Full text descriptions are contained in separate string fields. Values in the 3-digit code and description fields may not be fully populated, indicating that these features have not been field verified, or that this level of specificity cannot be accurately assigned. All features are attributed at the 1- and 2-digit levels.
+
+Key Attribute Fields
+c_Dig1 - 1-digit level land use coding, numeric code.
+c_Dig2 - 2-digit level land use coding, numeric code.
+
+1.0 Residential
+1.1 Residential Low Density
+1.2 Residential Medium Density
+1.3 Residential High Density
+2.0 Commercial
+2.1 Commercial Consumer
+2.2 Commercial Business and Professional
+2.3 Commercial Mixed Residential
+3.0 Industrial
+4.0 Civic/Institution
+5.0 Transportation
+6.0 Culture/Recreation
+6.1 Culture/Amusement
+6.2 Active Recreation
+7.0 Park/Open Space
+7.1 Park/Open Space
+7.2 Cemetery
+8.0 Water
+9.0Vacant or Other
+9.1 Vacant Land
+9.2 Other/Unknown
+
+c_Dig3 - 3-digit level land use coding, numeric code.
+c_Dig1Desc - 1-digit level land use text description.
+c_Dig2Desc - 2-digit level land use text description.
+c_Dig3Desc - 3-digit level land use text description.
+YEAR - the year to which the land use codes are current. If year 2010, this reflects land use codes that have NOT been field surveyed and the codes were assigned as described in the "Development Process" below.
+South (2014)
+West Park (2011)
+University Southwest (2012)
+
+Field checks and updates are planned for the 11 remaining Planning Districts as part of the Philadelpia2035 comprehensive planning process.
+
+Citywide land use as determined by the City Philadelphia Planning Commission (PCPC). Prepared for Philadelphia2035, the City’s comprehensive development plan, to support the zoning reform remapping and the District Planning projects. For more information on the Philadelphia2035 comprehensive planning process, see www.phila2035.org
+Land use classifications are activity-based. Each land unit has only one land use designation interpreted by a 1, 2 or 3-digit code. Specificity of a land use description increases from the one to three digit code. Example: 1= Residential, 1.2 = Residential Medium Density, and 1.2.1 = Residential Rowhouse.
+Land use features are derived from Philadelphia Water Department tax parcel boundaries (2009 to current release date) and from other GIS datasets prepared by City departments including: planimetric features, transportation right-of-ways (ROW), parks and open space, and water. Land use boundaries are typically coincident with PWD tax parcel boundaries, where tax parcel boundaries are available to define units of land. In some cases multiple land activities on a single parcel and been individual represented as individual polygons of land use.
+This land use feature class is under revision through 2014. Updates will be made to correct attributes and features and to populate 3-digit codes based upon field verifications made by PCPC staff. Land use field surveys will be conducted for each of the 18 Planning District beginning in 2011 as part of the Philadelphia2035 Compressive Planning process. For areas not yet updated by a Planning District field survey, land use designations are qualified estimates derived from the Office of Property Assessment data (see details under “Development Process” below).

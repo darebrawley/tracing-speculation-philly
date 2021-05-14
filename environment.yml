@@ -1,0 +1,16 @@
+name: geo-2021
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6   
+  - geopandas
+  - matplotlib
+  - shapely
+  - numpy
+  - seaborn
+  - pysal
+  - jupyter
+  - mapclassify
+  - pip:
+    - census
+    - us

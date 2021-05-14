@@ -1,0 +1,15 @@
+Real Estate Transfers
+
+This is a summary of real estate transfer tax (RTT) documents. This table contains both raw source data as well as calculated/geocoded data, which are described below. Each row represents a distinct property involved in a RTT transaction document; all properties involved in a transaction share the same document_id. Please note that 918 transactions have been temporarily omitted while we address data integration issues with these records.
+
+Documents recorded from December, 6, 1999 until present were obtained as text-file extracts from DOR and processed by geocoding/matching property data with our address information systems (AIS) and supplemental parcel data.* Owner extracts were processed to aggregate grantor and grantee names for each transaction (limited to 2,000 characters), and document extracts were combined with RTT extracts. Finally, property and owner processed extracts were joined to document data. Adjusted RTT data was calculated by dividing RTT data by the number of properties involved in a transaction.
+*Geocoding/matching results are subject to change as address/parcel integrations are improved and upgrades are made to AIS.
+
+12/6/99 - present
+
+Projection: NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet
+
+Last updated: 10/18/2018
+
+
+http://metadata.phila.gov/#home/datasetdetails/5a04b8d39202605970a7457d/representationdetails/5a04b8d39202605970a74581/

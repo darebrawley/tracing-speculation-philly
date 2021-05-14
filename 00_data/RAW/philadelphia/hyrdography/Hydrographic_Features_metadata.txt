@@ -1,0 +1,12 @@
+Hydrography
+
+Open Data Philly
+raymond.pierdomenico@phila.gov
+
+PWD's Office of Watersheds has compiled a geodatabase of Philadelphia hydrographic features for Philadelphia County and its contributing watersheds. The data is comprised of a combination of USGS's National Hydrography Dataset stream flow data, planimetric data digitized by Sanborn in 2004, and data provided by PWD field survey work.
+
+Polygon geometric features representing the waterways and impoundments in Philadelphia's five major watersheds.
+
+Initial data was captured from orthoimagery flown in 2004 by Sanborn. A combination of automated feature extraction (Planimetrics), desktop digitization and field survey is the basis for this dataset which is updated regularly by PWD. As new orthoimagery reveals changes in stream geometry, adjustments are made to the polygon and line file to reflect reality. The resolution and accuracy of newer orthoimagery improve over time, allowing more detailed feature extraction.
+
+Office of Watersheds staff maintains the feature datasets regularly, making geometric and attribute changes or adding new streams or infrastructure. The database is setup to reflect various forms of infrastructure along streams such as culverts, bridges, dams, and channelized segments. Additionally, unique segment and reach IDs were added to correlate to PWD Fluvial Geomorphology stream studies. USGS NHD Stream Names and IDs have been carried over and stream order classifications using both the Shreve and Strahler methods are coded. See the tables below for more detailed attribute entity information.
